@@ -1,15 +1,25 @@
-# Kullanıcıya özgü ayar dosyaları
-*.slnLaunch.user
-
 # Visual Studio ve .NET geçici dosyaları
-.vs/
 bin/
 obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.slnLaunch.json
 
-# Build çıktıları
+# Derleme çıktıları
 *.dll
 *.exe
 *.pdb
+*.cache
+*.log
+*.apphost.exe
 
-# Publish dosyaları
+# NuGet Paketleri
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Publish ve paketleme çıktıları
 publish/
