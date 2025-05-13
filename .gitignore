@@ -1,2 +1,15 @@
-appsettings.json
-appsettings.Development.json
+# Kullanıcıya özgü ayar dosyaları
+*.slnLaunch.user
+
+# Visual Studio ve .NET geçici dosyaları
+.vs/
+bin/
+obj/
+
+# Build çıktıları
+*.dll
+*.exe
+*.pdb
+
+# Publish dosyaları
+publish/
