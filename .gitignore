@@ -23,3 +23,6 @@ project.fragment.lock.json
 
 # Publish ve paketleme çıktıları
 publish/
+
+appsettings.json
+appsettings.Development.json
